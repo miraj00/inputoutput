@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ParentComponent implements OnInit {
 
+  public CData: number | undefined ;
   constructor() { }
 
   ngOnInit(): void {
