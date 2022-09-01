@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ParentComponent implements OnInit {
 
-  public CData: number ;
+  public CData: number = 0 ;
   
   constructor() { }
 

@@ -7,7 +7,7 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 })
 export class ChildComponent implements OnInit {
 
-  @Input() PData: number;
+  @Input() PData: string = '0';
   @Output() childEvent = new EventEmitter();
   constructor() { }
 
